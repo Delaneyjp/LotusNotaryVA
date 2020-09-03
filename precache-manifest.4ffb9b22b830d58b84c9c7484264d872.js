@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5875633c3bb9ad0211f016be42a3ad86",
+    "revision": "1ae470d4bdd77ccd10fa2fd55cf28483",
     "url": "/LotusNotaryVA/index.html"
   },
   {
