@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LotusNotaryVA/precache-manifest.4ffb9b22b830d58b84c9c7484264d872.js"
+  "/LotusNotaryVA/precache-manifest.26a33db4a00877334877f240b4b32366.js"
 );
 
 self.addEventListener('message', (event) => {

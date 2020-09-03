@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/LotusNotaryVA/static/css/main.5f361e03.chunk.css",
-    "main.js": "/LotusNotaryVA/static/js/main.76c371ab.chunk.js",
-    "main.js.map": "/LotusNotaryVA/static/js/main.76c371ab.chunk.js.map",
+    "main.css": "/LotusNotaryVA/static/css/main.25869d0a.chunk.css",
+    "main.js": "/LotusNotaryVA/static/js/main.0f334882.chunk.js",
+    "main.js.map": "/LotusNotaryVA/static/js/main.0f334882.chunk.js.map",
     "runtime-main.js": "/LotusNotaryVA/static/js/runtime-main.ea69c362.js",
     "runtime-main.js.map": "/LotusNotaryVA/static/js/runtime-main.ea69c362.js.map",
     "static/js/2.b545a4cc.chunk.js": "/LotusNotaryVA/static/js/2.b545a4cc.chunk.js",
     "static/js/2.b545a4cc.chunk.js.map": "/LotusNotaryVA/static/js/2.b545a4cc.chunk.js.map",
     "index.html": "/LotusNotaryVA/index.html",
-    "precache-manifest.4ffb9b22b830d58b84c9c7484264d872.js": "/LotusNotaryVA/precache-manifest.4ffb9b22b830d58b84c9c7484264d872.js",
+    "precache-manifest.26a33db4a00877334877f240b4b32366.js": "/LotusNotaryVA/precache-manifest.26a33db4a00877334877f240b4b32366.js",
     "service-worker.js": "/LotusNotaryVA/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/LotusNotaryVA/static/css/main.5f361e03.chunk.css.map",
+    "static/css/main.25869d0a.chunk.css.map": "/LotusNotaryVA/static/css/main.25869d0a.chunk.css.map",
     "static/js/2.b545a4cc.chunk.js.LICENSE.txt": "/LotusNotaryVA/static/js/2.b545a4cc.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/LotusNotaryVA/static/media/logo.5d5d9eef.svg"
+    "static/media/Logov3.png": "/LotusNotaryVA/static/media/Logov3.c97e8a28.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ea69c362.js",
     "static/js/2.b545a4cc.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.76c371ab.chunk.js"
+    "static/css/main.25869d0a.chunk.css",
+    "static/js/main.0f334882.chunk.js"
   ]
 }
