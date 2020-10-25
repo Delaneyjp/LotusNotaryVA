@@ -13,7 +13,7 @@
   }
 } */
 
-.App-header {
+.Slide {
   background-color: #000000;
   min-height: 100vh;
   display: flex;
@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom: 1px solid white;
 }
 
 .App-link {
@@ -48,3 +49,12 @@
   margin-top: 0px;
   color: rgb(201, 201, 201);
 }
+
+footer h5 {
+  color: white;
+}
+
+.navbar {
+background-color: #000000;
+}
+
