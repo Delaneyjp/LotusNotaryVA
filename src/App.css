@@ -25,6 +25,19 @@
   border-bottom: 1px solid white;
 }
 
+.AdSlide {
+  background-color: #000000;
+  min-height: 92vh;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-bottom: 1px solid white;
+}
+
 .App-link {
   color: whitesmoke;
 }
@@ -50,7 +63,12 @@
   color: rgb(201, 201, 201);
 }
 
+.footer {
+  margin-bottom: 0px;
+  background-color: #000000;
+  min-height: 8vh;
 
+}
 
 footer h5 {
   color: white;

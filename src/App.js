@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+
 import AboutMeSlide from './Slides/AboutMeSlide';
 import AdSlide from './Slides/AdSlide';
 import MessageMeSlide from './Slides/MessageMeSlide';
@@ -16,6 +18,8 @@ function App() {
       <AboutMeSlide />
       <MessageMeSlide />
       <AdSlide />
+      <Footer />
+
     </div>
   );
 }
