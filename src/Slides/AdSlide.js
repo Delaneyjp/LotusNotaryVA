@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
+import Footer from '../Components/Footer';
 
 class AdSlide extends Component {
     render() {
         return (
             <div className="Slide AdSlide">
                 Ad Slide
+                <div style={{ height: "90%" }}></div>
+                <div className="bottom">
+                    <Footer />
+                </div>
 
-                <footer className="text-center">
-                    <h5>Lotus Notary VA</h5>
-                    <h5>Copyright 2020</h5>
-                </footer>
+
             </div>
         );
     }

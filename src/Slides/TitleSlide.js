@@ -4,6 +4,7 @@ import Logo from '../Logo';
 class TitleSlide extends Component {
     render() {
         return (
+
             <header className="Slide TitleSlide">
                 <Logo />
                 <p>Owned & Operated by <span style={{ fontWeight: "bold" }}>TANYA D. MARTIN</span></p>
@@ -11,6 +12,7 @@ class TitleSlide extends Component {
                 <p className="headerEmail">Email: tdmartin.notarypublic@gmail.com</p>
                 <p> </p>
             </header>
+
         );
     }
 }

@@ -1,0 +1,36 @@
+import React, { Component } from 'react';
+import Button from 'react-bootstrap/Button';
+import reqnavbtn from "../L-LOGO-dark.png";
+
+
+class RequestNavButton extends Component {
+    render() {
+
+        const reqBtnNavStyle = {
+            color: "white",
+            backgroundColor: "white",
+            border: "1px solid white",
+            borderRadius: "50%",
+            height: "50px",
+            width: "50px"
+        }
+
+        const btnLogoStyle = {
+            height: "100%",
+            width: "100%",
+            marginLeft: "3px"
+        }
+
+
+        return (
+            <div>
+                <div className="btn reqBtn text-center" style={reqBtnNavStyle}>
+                    <img src={reqnavbtn} className="reqbtnlogo" alt="reqbtnlogo" style={btnLogoStyle} />
+                </div>
+            </div >
+        );
+    }
+}
+
+export default RequestNavButton;
+
