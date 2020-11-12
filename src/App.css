@@ -25,18 +25,33 @@
   border-bottom: 1px solid white;
 }
 
-.AdSlide {
+#AboutMeSlide {
+  
+}
+
+#MessageMeSlide {
+
+}
+
+#TitleSlide {
+
+}
+
+#AdSlide {
   background-color: #000000;
   min-height: 92vh;
   display: flex;
   justify-content: center;
-
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
   border-bottom: 1px solid white;
 }
+
+
+
+
 
 .App-link {
   color: whitesmoke;
@@ -76,5 +91,28 @@ footer h5 {
 
 .navbar {
 background-color: #000000;
+}
+
+.navTab {
+  color: white;
+  font-weight: bolder;
+  margin-top: 10px;
+  /* margin-right: 10px; */
+  float: right;
+}
+
+.tabAbout {
+
+}
+
+.tabHome {
+  margin-top: 30px;
+  /* margin-left:0px; */
+}
+
+.tabReq {
+  padding-left: 3px;
+  margin-top: 12px;
+  margin-right: 10px;
 }
 

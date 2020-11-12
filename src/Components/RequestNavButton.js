@@ -8,7 +8,7 @@ class RequestNavButton extends Component {
 
         const reqBtnNavStyle = {
             color: "white",
-            backgroundColor: "white",
+            backgroundColor: "rgba(245, 245, 245, 0.3)",
             border: "1px solid white",
             borderRadius: "50%",
             height: "50px",
