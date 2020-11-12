@@ -9,8 +9,8 @@ class Footer extends Component {
         }
         return (
             <footer className="text-center footer" style={{ footerStyle }}>
-                <h5>Lotus Notary VA</h5>
-                <h5>Copyright 2020</h5>
+                <h6>Lotus Notary VA</h6>
+                <h6>Copyright 2020</h6>
             </footer>
         );
     }

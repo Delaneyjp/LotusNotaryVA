@@ -6,11 +6,9 @@ class TitleSlide extends Component {
         return (
 
             <header className="Slide" id="TitleSlide">
-                <Logo />
+                <Logo style={{ marginTop: "-60px" }} />
                 <p>Owned & Operated by <span style={{ fontWeight: "bold" }}>TANYA D. MARTIN</span></p>
                 <p className="headerLocation">Richmond, VA</p>
-                <p className="headerEmail">Email: tdmartin.notarypublic@gmail.com</p>
-                <p> </p>
             </header>
 
         );

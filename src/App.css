@@ -19,14 +19,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   border-bottom: 1px solid white;
 }
 
 #AboutMeSlide {
-  
+background-color: gray;  
+color: black;
+
 }
 
 #MessageMeSlide {
@@ -34,19 +35,20 @@
 }
 
 #TitleSlide {
+  justify-content: center;
+  padding-bottom: 60px;
 
 }
 
 #AdSlide {
-  background-color: #000000;
   min-height: 92vh;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  color: white;
   border-bottom: 1px solid white;
+  background-color: gray;  
+color: black;
 }
 
 
@@ -82,11 +84,15 @@
   margin-bottom: 0px;
   background-color: #000000;
   min-height: 8vh;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-footer h5 {
+footer h6 {
   color: white;
+
 }
 
 .navbar {
@@ -116,3 +122,28 @@ background-color: #000000;
   margin-right: 10px;
 }
 
+.statementRow h2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.photoSpan {
+  height: 50%;
+}
+
+.adText {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.adLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
