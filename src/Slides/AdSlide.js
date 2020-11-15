@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import penphoto from "../photo-holdingpen.jpg";
+import vaculogo from "../VACUlogo.png";
 
 class AdSlide extends Component {
     render() {
         return (
             <div className="Slide" id="AdSlide">
                 <div className="photoSpan">
-
+                    <img width="100%" src={penphoto} className="penPhoto" alt="person signing contract" />
                 </div>
                 <div className="container adSection">
                     <div className="row">
@@ -26,12 +28,12 @@ class AdSlide extends Component {
                                 <br></br>
                                 REALTOR
                             </h4>
+                            <img height="150px" src={vaculogo} className="vaculogo" alt="VACU Logo" />
+
                         </div>
                     </div>
                 </div>
-                <div style={{ height: "90%" }}></div>
-                <div className="bottom">
-                </div>
+
 
 
             </div>

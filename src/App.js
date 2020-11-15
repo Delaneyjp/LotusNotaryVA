@@ -12,7 +12,7 @@ import TitleSlide from './Slides/TitleSlide';
 
 function App() {
   return (
-    <div>
+    <div className="appPage">
       <Navbar />
       <TitleSlide />
       <AboutMeSlide />

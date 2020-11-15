@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+  background-color: #000000;
+
 }
 
+.appPage {
+  background-color: #000000;
+}
 .App-logo {
   height: 60vmin;
   pointer-events: none;
@@ -37,6 +42,7 @@ color: black;
 #TitleSlide {
   justify-content: center;
   padding-bottom: 60px;
+  background-color: #000000;
 
 }
 
@@ -97,6 +103,7 @@ footer h6 {
 
 .navbar {
 background-color: #000000;
+opacity: 70%;
 }
 
 .navTab {
@@ -112,7 +119,7 @@ background-color: #000000;
 }
 
 .tabHome {
-  margin-top: 30px;
+  margin-top: 10px;
   /* margin-left:0px; */
 }
 
@@ -130,15 +137,23 @@ background-color: #000000;
 }
 
 .photoSpan {
-  height: 50%;
+  width: 100%;
+  max-height: 30%;
+}
+
+.photoSpan  img {
+  max-height: 450px;
+}
+
+.adSection {
+  height: 410px;
 }
 
 .adText {
-  height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  margin-top: 150px;
 }
 
 .adLogo {
@@ -146,4 +161,10 @@ background-color: #000000;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 110px;
+
+}
+
+.statementRow {
+  margin-top: 80px;
 }
