@@ -26,7 +26,6 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  border-bottom: 1px solid white;
 }
 
 #AboutMeSlide {
@@ -36,7 +35,6 @@ color: black;
 }
 
 #MessageMeSlide {
-
 }
 
 #TitleSlide {
@@ -129,11 +127,24 @@ opacity: 70%;
   margin-right: 10px;
 }
 
+.statementRow {
+  margin-top: 100px;
+}
+
 .statementRow h2{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  font-size: xx-large;
+}
+
+.credRow {
+  margin-top: 100px;
+}
+
+.locationsRow {
+  margin-top: 100px;
 }
 
 .photoSpan {
@@ -165,6 +176,8 @@ opacity: 70%;
 
 }
 
-.statementRow {
-  margin-top: 80px;
+
+
+.msgMeContent {
+  padding-top: 200px;
 }

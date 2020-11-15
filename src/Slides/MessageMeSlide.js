@@ -4,7 +4,7 @@ class MessageMeSlide extends Component {
     render() {
         return (
             <div className="Slide" id="MessageMeSlide">
-                <div className="container">
+                <div className="container msgMeContent">
                     <div className="row">
                         <div className="col-6 infoCol">
                             <h1>
