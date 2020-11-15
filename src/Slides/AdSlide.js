@@ -18,7 +18,7 @@ class AdSlide extends Component {
                             <h2>
                                 FOUND OUT HOW I CAN HELP,
                             </h2>
-                            <div className="btn btn-primary btn-lg">
+                            <div className="btn btn-danger btn-lg" style={{ border: "1px solid black", fontWeight: "bolder", color: "black" }}>
                                 HERE
                             </div>
                         </div>
