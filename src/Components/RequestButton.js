@@ -6,21 +6,30 @@ class RequestButton extends Component {
 
         const reqBtnStyle = {
             color: "white",
-            backgroundColor: "Blue",
-            border: "1px solid white",
-            borderRadius: "50%"
+            backgroundColor: "rgba(245, 245, 245, 0.6)",
+            border: "3px solid rgba(250, 250, 250, 0.4)",
+            borderRadius: "50%",
+            height: "200px",
+            width: "200px",
+            position: "absolute",
+            top: "200px",
+            right: "400px"
         }
 
-        const reqBtnNavStyle = {
-            color: "white",
-            backgroundColor: "Blue",
-            border: "1px solid white",
-            borderRadius: "50%"
+        const quoteBtnText = {
+            marginTop: "45px",
+            color: "black",
+            fontWeight: "bolder",
+            fontSize: "35px",
+            fontFamily: "Imapact, Charcoal, sansSerif"
         }
+
 
         return (
-            <div className="btn reqBtn" >
-                Request Button
+            <div className="btn reqBtn" style={reqBtnStyle}>
+                <div className="quoteText" style={quoteBtnText}>
+                    REQUEST QUOTE
+                </div>
             </div>
         );
     }

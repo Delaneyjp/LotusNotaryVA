@@ -6,7 +6,7 @@ export default class Logo extends Component {
     render() {
         return (
             <div>
-                <img src={logo1} className="App-logo" alt="logo" />
+                <img src={logo1} className="App-logo" alt="logo" style={{ position: "relative" }} />
             </div>
         )
     }
