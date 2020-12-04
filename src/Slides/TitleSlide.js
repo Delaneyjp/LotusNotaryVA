@@ -8,9 +8,12 @@ class TitleSlide extends Component {
 
             <header className="Slide" id="TitleSlide">
                 <div className="mainTitleArea">
+                    <div ClassName="row">
+                        <div className="col-12">
+                            <a><RequestButton /></a>
+                        </div>
+                    </div>
                     <Logo style={{ marginTop: "-60px" }} />
-                    <a><RequestButton /></a>
-
                 </div>
                 <p>Owned & Operated by <span style={{ fontWeight: "bold" }}>TANYA D. MARTIN</span></p>
                 <p className="headerLocation">Richmond, VA</p>
