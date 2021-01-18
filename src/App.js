@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
+import NavArrows from './Components/NavArrows';
 import Footer from './Components/Footer';
 
 import AboutMeSlide from './Slides/AboutMeSlide';
@@ -14,6 +15,8 @@ function App() {
   return (
     <div className="appPage">
       <Navbar />
+      {/* <NavArrows /> */}
+
       <TitleSlide />
       <AboutMeSlide />
       <MessageMeSlide />

@@ -11,14 +11,15 @@ class RequestNavButton extends Component {
             backgroundColor: "rgba(245, 245, 245, 0.3)",
             border: "1px solid white",
             borderRadius: "50%",
-            height: "50px",
-            width: "50px"
+            height: "45px",
+            width: "45px",
+            marginTop: "-10px"
         }
 
         const btnLogoStyle = {
             height: "100%",
             width: "100%",
-            marginLeft: "3px"
+            marginLeft: "3px",
         }
 
 
