@@ -54,8 +54,8 @@ color: black;
   font-size: calc(10px + 2vmin);
   border-bottom: 1px solid white;
   background-color: gray;  
-color: black;
-font-size: calc(10px + 2vmin);
+  color: black;
+  font-size: calc(10px + 2vmin);
 
 }
 
@@ -103,7 +103,6 @@ footer h6 {
 
 }
 .nav-item {
-  border: 1px solid red;
   padding-right: 0px;
   padding-left: 0px;
   
@@ -120,7 +119,6 @@ opacity: 70%;
   font-weight: bolder;
   margin-top: 10px;
   /* margin-right: 10px; */
-  float: right;
 }
 
 .navRowItems {
@@ -136,6 +134,22 @@ opacity: 70%;
   padding-left: 2px;
   margin-top: 1px;
   margin-right: 5px;
+}
+
+.navArrowsBar {
+    position: fixed;
+    width: 100%;
+    bottom: 8vh;
+}
+
+.nav-arrow {
+  cursor: pointer;
+  margin-left: 25px;
+  margin-right: 25px
+}
+
+.nav-arrow:hover {
+  color: white;
 }
 
 .statementRow {

@@ -16,13 +16,19 @@ class Navbar extends Component {
                 <div className="container-fluid row no-gutters">
                     <div className="container-fluid navRowItems">
                         <ul className=" container navbar-nav col-1">
-                            <li className="nav-item "><a href="#TitleSlide" className="nav-link tabHome"><img src={navlogo} className="App-nav-logo" alt="navlogo" style={navlogostyle} /></a></li>
+                            <li className="nav-item "><a href="#TitleSlide" className="nav-link tabHome">
+                                <img src={navlogo} className="App-nav-logo" alt="navlogo" style={navlogostyle} />
+                            </a></li>
                         </ul>
-                        <ul className="container navbar-nav  col-11">
-                            <li className="nav-item" style={{ marginLeft: "75px" }}> <a href="#AboutMeSlide" className="tabAbout navTab nav-link">ABOUT ME</a></li>
-                            <li className="nav-item" style={{ marginRight: "0px" }}> <a href="#MessageMeSlide" className="tabMessage navTab nav-link">CONTACT</a></li>
+                        <ul className="container navbar-nav  offset-3-sm col-5">
+                            <li className="nav-item" style={{}}> <a href="#AboutMeSlide"
+                                className="tabAbout navTab nav-link">ABOUT ME</a></li>
+                            <li className="nav-item" style={{}}> <a href="#MessageMeSlide"
+                                className="tabMessage navTab nav-link">CONTACT</a></li>
 
-                            <li className="nav-item"> <a className="nav-link"><span style={{ float: "left" }}><RequestNavButton /> </span><span className="tabReq navTab">Request Quote</span></a></li>
+                            <li className="nav-item"> <a className="nav-link">
+                                <span style={{ float: "left" }}><RequestNavButton /> </span>
+                                <span className="tabReq navTab">Request Quote</span></a></li>
                         </ul>
                     </div>
                 </div>

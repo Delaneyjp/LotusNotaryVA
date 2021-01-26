@@ -1,25 +1,79 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import { FaArrowCircleDown } from "react-icons/fa"
+import { FaArrowCircleUp } from "react-icons/fa"
 
-class NavArrows extends Component {
+
+
+export class NavArrows extends Component {
+
+
+
     render() {
+
+        // state = {
+        //     currentPage: 1,
+        //     newPage: ""
+        // }
+
+        // pageDirect = () => {
+        //     if (currentPage = 1) {
+        //         newPage = "#TitleSlide"
+        //     }
+        //     if (currentPage = 2) {
+        //         newPage = "#AboutMeSlide"
+        //     }
+        //     if (currentPage = 3) {
+        //         newPage = "#MessageSlide"
+        //     }
+        //     if (currentPage = 4) {
+        //         newPage = "#AdSlide"
+        //     }
+        // };
+
+
+        // pageInc = () => {
+        //     const { currentPage } = this.state;
+        //     this.setState({
+        //         currentPage: currentPage + 1
+        //     });
+
+        //     if (currentPage >= 1) {
+        //         currentPage++
+        //     };
+        //     if (currentPage === 4) {
+        //         // { pageArrowUp.disabled = true }
+        //     };
+        // };
+
+        // pageDec = () => {
+        //     const { currentPage } = this.state;
+        //     this.setState({
+        //         currentPage: currentPage - 1
+        //     });
+
+        //     if (currentPage >= 2) {
+        //         currentPage--
+        //     }
+        // if (currentPage === 1) { pageArrowDown.disabled = true }
+        // };
+
+
 
 
 
         return (
-            <nav className="navArrows sticky-bottom navbar-expand-sm" style={{ backgroundColor: "blue", height: "50px", marginBottom: "100px", zIndex: "7" }}>
-                <div className="container-fluid row no-gutters">
-                    <div className="container-fluid navRowArrows">
-                        <ul className="container navbar-nav  col-12">
-                            <li className="nav-arrow"><a href="#AboutMeSlide" className="tabAbout navTab nav-link">^</a></li>
-                            <li className="nav-arrow"><a href="#MessageMeSlide" className="tabMessage navTab nav-link">v</a></li>
-                        </ul>
+            <nav className="navArrowsBar navbar-expand-sm container-fluid" style={{ height: "5vmin", zIndex: "7" }}>
+                <div className="row justify-content-center">
+                    <div className="navRowArrows navbar-nav col-12 justify-content-center">
+                        <a className="pageArrowDown" /*href={newPage}*/><FaArrowCircleDown size="3em" className="nav-arrow" /*onClick={pageInc}*/ /></a>
+                        <a className="pageArrowUp" /*href={newPage}*/><FaArrowCircleUp size="3em" className="nav-arrow" /*onClick={pageDec}*/ /></a>
                     </div>
                 </div>
-            </nav>
+            </nav >
 
         );
     }
+
 }
 
 

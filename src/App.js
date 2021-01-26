@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="appPage">
       <Navbar />
-      {/* <NavArrows /> */}
+      <NavArrows />
 
       <TitleSlide />
       <AboutMeSlide />
