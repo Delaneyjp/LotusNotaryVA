@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import penphoto from "../photo-holdingpen.jpg";
 import vaculogo from "../VACUlogo.png";
+import Footer from '../Components/Footer';
 
-class AdSlide extends Component {
-    render() {
-        return (
+
+const AdSlide = () => {
+
+    return (
+        <>
             <div className="Slide" id="AdSlide">
                 <div className="photoSpan">
                     <img width="100%" src={penphoto} className="penPhoto" alt="person signing contract" />
@@ -35,12 +38,15 @@ class AdSlide extends Component {
                             </div>
                         </div>
                     </div>
+
                 </div>
 
 
             </div>
-        );
-    }
+            <Footer />
+
+        </>
+    );
 }
 
 export default AdSlide;

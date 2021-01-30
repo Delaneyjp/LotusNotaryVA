@@ -32,7 +32,7 @@ class RequestButton extends Component {
         return (
 
             <div>
-                <a><img src={ReqBtn} className="Request Quote Button" alt="Quote" style={reqBtnStyle} /></a>
+                <a><img src={ReqBtn} className="Request Quote Button quoteBtnMain" alt="Quote" style={reqBtnStyle} /></a>
             </div>
             // <div className="btn reqBtn" style={reqBtnStyle}>
             //     <div className="quoteText" style={quoteBtnText}>

@@ -14,6 +14,7 @@ class RequestNavButton extends Component {
             height: "45px",
             width: "45px",
             marginTop: "-10px"
+
         }
 
         const btnLogoStyle = {
@@ -25,8 +26,9 @@ class RequestNavButton extends Component {
 
         return (
             <div>
-                <div className="btn reqBtn text-center" style={reqBtnNavStyle}>
-                    <img src={reqnavbtn} className="reqbtnlogo" alt="reqbtnlogo" style={btnLogoStyle} />
+                <div className="btn reqBtn navReqBtn text-center" style={reqBtnNavStyle}>
+                    <img src={reqnavbtn} className="reqbtnlogo"
+                        alt="reqbtnlogo" style={btnLogoStyle} />
                 </div>
             </div >
         );

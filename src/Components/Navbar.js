@@ -26,8 +26,8 @@ class Navbar extends Component {
                             <li className="nav-item" style={{}}> <a href="#MessageMeSlide"
                                 className="tabMessage navTab nav-link">CONTACT</a></li>
 
-                            <li className="nav-item"> <a className="nav-link">
-                                <span style={{ float: "left" }}><RequestNavButton /> </span>
+                            <li className="nav-item "> <a className="nav-link">
+                                <span className="navWithBtn" style={{ float: "left" }}><RequestNavButton /> </span>
                                 <span className="tabReq navTab">Request Quote</span></a></li>
                         </ul>
                     </div>

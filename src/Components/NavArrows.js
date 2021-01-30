@@ -1,80 +1,62 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import { FaArrowCircleDown } from "react-icons/fa"
 import { FaArrowCircleUp } from "react-icons/fa"
 
 
 
-export class NavArrows extends Component {
+const NavArrows = () => {
+
+
+    let links = ["#TitleAd", "#AboutMeSlide", "#MessageMeSlide", "#AdSlide"];
+    const [currentPage, setCurrentPage] = useState(1);
+    const [nextPage, setNextPage] = useState(currentPage + 1);
+    const [prevPage, setPrevPage] = useState(currentPage - 1);
+
+
+    // const nextPage = currentPage + 1
+    // const prevPage = currentPage - 1
+
+    const pageInc = () => {
+        if (currentPage === 4) {
+            return;
+        } else {
+            setCurrentPage(currentPage + 1)
+            setNextPage(nextPage + 1)
+            setPrevPage(prevPage + 1)
+        }
+        console.log(`Current Page is: ${nextPage}`)
+        console.log(`Next Page is: ${nextPage + 1}`)
+        console.log(`Previous Page is: ${currentPage}`)
+    };
+    const pageDec = () => {
+        if (currentPage === 1) {
+            return;
+        } else {
+            setCurrentPage(currentPage - 1)
+            setNextPage(nextPage - 1)
+            setPrevPage(prevPage - 1)
+        }
+        console.log(`Current Page is: ${prevPage}`)
+        console.log(`Next Page is: ${currentPage}`)
+        console.log(`Previous Page is: ${prevPage - 1}`)
+    };
 
 
 
-    render() {
-
-        // state = {
-        //     currentPage: 1,
-        //     newPage: ""
-        // }
-
-        // pageDirect = () => {
-        //     if (currentPage = 1) {
-        //         newPage = "#TitleSlide"
-        //     }
-        //     if (currentPage = 2) {
-        //         newPage = "#AboutMeSlide"
-        //     }
-        //     if (currentPage = 3) {
-        //         newPage = "#MessageSlide"
-        //     }
-        //     if (currentPage = 4) {
-        //         newPage = "#AdSlide"
-        //     }
-        // };
-
-
-        // pageInc = () => {
-        //     const { currentPage } = this.state;
-        //     this.setState({
-        //         currentPage: currentPage + 1
-        //     });
-
-        //     if (currentPage >= 1) {
-        //         currentPage++
-        //     };
-        //     if (currentPage === 4) {
-        //         // { pageArrowUp.disabled = true }
-        //     };
-        // };
-
-        // pageDec = () => {
-        //     const { currentPage } = this.state;
-        //     this.setState({
-        //         currentPage: currentPage - 1
-        //     });
-
-        //     if (currentPage >= 2) {
-        //         currentPage--
-        //     }
-        // if (currentPage === 1) { pageArrowDown.disabled = true }
-        // };
-
-
-
-
-
-        return (
-            <nav className="navArrowsBar navbar-expand-sm container-fluid" style={{ height: "5vmin", zIndex: "7" }}>
-                <div className="row justify-content-center">
-                    <div className="navRowArrows navbar-nav col-12 justify-content-center">
-                        <a className="pageArrowDown" /*href={newPage}*/><FaArrowCircleDown size="3em" className="nav-arrow" /*onClick={pageInc}*/ /></a>
-                        <a className="pageArrowUp" /*href={newPage}*/><FaArrowCircleUp size="3em" className="nav-arrow" /*onClick={pageDec}*/ /></a>
-                    </div>
+    return (
+        <nav className="navArrowsBar navbar-expand-sm container-fluid" style={{ height: "5vmin", zIndex: "7" }}>
+            <div className="row justify-content-center">
+                <div className="navRowArrows navbar-nav col-12 justify-content-center">
+                    <a className="pageArrowDown" onClick={pageInc} href={links[currentPage]} ><FaArrowCircleDown size="3em" className="nav-arrow" /></a>
+                    <h1>{currentPage}</h1>
+                    <a className="pageArrowUp" onClick={pageDec} ><FaArrowCircleUp size="3em" className="nav-arrow" href={links[currentPage]} /></a>
                 </div>
-            </nav >
+            </div>
+        </nav >
 
-        );
-    }
-
+    );
 }
+
 
 
 

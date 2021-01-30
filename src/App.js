@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
 import NavArrows from './Components/NavArrows';
-import Footer from './Components/Footer';
 
 import AboutMeSlide from './Slides/AboutMeSlide';
 import AdSlide from './Slides/AdSlide';
@@ -21,7 +20,6 @@ function App() {
       <AboutMeSlide />
       <MessageMeSlide />
       <AdSlide />
-      <Footer />
 
     </div>
   );
